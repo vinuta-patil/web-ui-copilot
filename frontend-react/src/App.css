@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.app-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.query-box {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.query-box input {
+  width: 60%;
+  max-width: 600px;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.query-box button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.query-box button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.response-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.response-box pre {
+  background-color: #f0f0f0;
+  padding: 0.8rem;
+  border-radius: 5px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.response-box button {
+  margin-top: 1rem;
+  background-color: #00b894;
+  color: white;
+  padding: 0.5rem 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.response-box button:hover {
+  background-color: #019875;
+}
+.main-layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  padding: 1rem;
+  background: #f0f0f0;
+  border-right: 2px solid #ddd;
+  min-height: 100vh;
+}
+
+.widget-button {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  text-align: left;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.widget-button:hover {
+  background: #dfe6e9;
+}
