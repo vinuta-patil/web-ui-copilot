@@ -63,8 +63,6 @@ http://localhost:8000/ask?query=your+question
 - Charts retain original type and interactivity.
 - Easily dismiss popup to return to the chat.
 
----
-
 ## 🛠 Tech Stack
 
 | Layer      | Technology       | Purpose                          |
@@ -75,7 +73,6 @@ http://localhost:8000/ask?query=your+question
 | Backend    | Flask (Python)   | Routes queries to AI agents      |
 | Hosting    | Vercel/Netlify   | Optional for frontend deployment |
 
----
 
 ## Sample Queries
 
@@ -91,8 +88,6 @@ Copilot will:
 - Parse the response,
 - Visualize the chart based on structure.
 
----
-
 
 ## 👩‍💻 Author
 
@@ -100,7 +95,6 @@ Copilot will:
 ✨ Built with ❤️ for real-time data exploration and AI-powered chart interactions  
 🔗 [GitHub Profile](https://github.com/vinuta-patil)
 
----
 
 ## 📜 License
 
